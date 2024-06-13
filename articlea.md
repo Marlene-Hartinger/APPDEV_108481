@@ -20,23 +20,23 @@ become productive. As an interpreted language, Python allows you to run programs
 without the need to compile. This makes for a rapid feedback loop conducive to learning. For
 example, a simple print statement in Python looks like this:
 
-""""python
+```python
 print("Hello, Python!")
-""""
+```
 
 ### 1.2 Robust Standard Library
 Python comes with a *vast standard library*, often referred to as its "batteries-included" feature.
 Whatever the task, there's likely a module in the standard library to help you get started. For
 instance, `http` for server-side code:
 
-""""python
+```python
 from http.server import BaseHTTPRequestHandler, HTTPServer
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
         self.end_headers()
-        self.wfile.write(b'Hello, Python!')`
-""""
+        self.wfile.write(b'Hello, Python!')
+```
 
 ## 2. Python in Various Domains
 __________
@@ -50,20 +50,22 @@ areas. Here's a look at some of them:
 Using Python for data analysis is incredibly efficient due to libraries such as Pandas. Below is an
 example of how you can use Pandas to read a CSV file and summarize the data:
 
-"""python
+```python
 import pandas as pd
+
 # Load data
 data = pd.read_csv('data.csv')
+
 # Display summary
 print(data.describe())
-"""
+```
 
 ## 3. Python's Impact and Community
 __________
 Python has a robust ecosystem supported by a vibrant community. There are numerous
 conferences around the world, such as PyCon, and an abundance of resources available online.
 
-###3.1 Community Resources
+### 3.1 Community Resources
 
 Here are some great places to learn more about Python:
 - [Python.org] - The official Python website.
