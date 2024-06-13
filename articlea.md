@@ -72,7 +72,9 @@ Here are some great places to learn more about Python:
 - [PyCon] - A major conference for the Python community.
 
 ### 3.2 Utilizing Python Libraries
-Here is a table of som epopular Python libraries and their uses:
+
+Here is a table of some popular Python libraries and their uses:
+
 | Libary | Use Case |
 |-------|-------|
 |Django|Web Development|
@@ -101,5 +103,5 @@ __________
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [Python.org]: <https://www.python.org/r>
+   [Python.org]: <https://www.python.org/>
    [PyCon]: <https://pycon.org/>
